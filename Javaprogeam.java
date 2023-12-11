@@ -31,9 +31,8 @@ public class Javaprogeam
     public static void main(String []args)
         {
             Javaprogeam car = new Javaprogeam(args[0], args[1], args[2]);
-            car.accelerate();
-            car.brake();
             car.describe();
+            car.accelerate();
         }
 
 }
