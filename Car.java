@@ -7,12 +7,16 @@
 
 public class Car extend Vehicle 
 {
-    void Sxezsrd;
+    String Sxezsrd;
     public Car(String brand, String model, String year, String weight, String wheels, void sxezsrd)
         {
             super(brand, model, year, weight, wheels);
             Sxezsrd = sxezsrd;
         }
-
+        private void describe()
+        {
+            super.describe();
+            System.out.println(Sxezrsd);
+        }
 
 }
